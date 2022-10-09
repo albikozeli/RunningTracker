@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/activity_text"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="25dp"
+        android:text="Activity:"
+        android:gravity="center_vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/slider" />
+
+    <TextView
+        android:id="@+id/distance_text"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="25dp"
+        android:text="Distance (miles):"
+        android:gravity="center_vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activity_text" />
+
+    <TextView
+        android:id="@+id/duration_text"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="25dp"
+        android:text="Duration (min):"
+        android:gravity="center_vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/distance_text" />
+
+    <EditText
+        android:id="@+id/enter_activity"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="75dp"
+        android:ems="10"
+        android:hint="Enter activity"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/slider" />
+
+    <EditText
+        android:id="@+id/enter_distance"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="75dp"
+        android:ems="10"
+        android:hint="Enter distance"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enter_activity" />
+
+    <EditText
+        android:id="@+id/enter_duration"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="75dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="Enter duration"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enter_distance" />
+
+    <Button
+        android:id="@+id/record_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Record this activity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enter_duration" />
+
+    <TextView
+        android:id="@+id/rate_experience"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Rate your experience"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/slider"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="108dp"
+        android:stepSize="1"
+        android:valueFrom="0"
+        android:valueTo="10"
+        app:labelBehavior="withinBounds"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rate_experience"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
