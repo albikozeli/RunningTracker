@@ -9,12 +9,13 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_marginBottom="50dp"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hold"
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
@@ -26,5 +27,51 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/hold"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text=""
+        android:background="#cceb34"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/experience_avg"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text=""
+        android:textSize="15sp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@id/hold"
+        app:layout_constraintStart_toStartOf="@id/hold"
+        app:layout_constraintTop_toTopOf="@id/hold" />
+
+    <TextView
+        android:id="@+id/distance_avg"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text=""
+        android:textSize="15sp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@id/hold"
+        app:layout_constraintStart_toStartOf="@id/hold"
+        app:layout_constraintTop_toBottomOf="@id/experience_avg" />
+
+    <TextView
+        android:id="@+id/duration_avg"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text=""
+        android:textSize="15sp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@id/hold"
+        app:layout_constraintStart_toStartOf="@id/hold"
+        app:layout_constraintTop_toBottomOf="@id/distance_avg" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
