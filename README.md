@@ -3,7 +3,8 @@
 Submitted by: **Albi Kozeli**
 
 **Running Tracker** is a health metrics app that allows users to track their running activities,
-the distance and duration of each activity as well as rate their overall experience.
+the distance and duration of each activity as well as rate their overall experience. The app also 
+tracks metrics of user activity 
 
 Time spent: **10** hours spent in total
 
@@ -21,29 +22,22 @@ The following **optional** features are implemented:
 
 - [x] **Create a UI for tracking averages and trends in metrics**
 - [x] **Improve and customize the user interface through styling and coloring**
-- [ ] **Implement orientation responsivity**
-- [ ] **Add a daily photo feature**
-
-The following **additional** features are implemented:
-
-- [ ] List anything else that you can get done to improve the app functionality!
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![walkthrough](https://user-images.githubusercontent.com/98725619/194787373-8e606ad9-5f4f-418d-b10e-871ddc9346e6.gif)
+
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with LICEcap
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
 [peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
-
-Describe any challenges encountered while building the app.
 
 ## License
 
