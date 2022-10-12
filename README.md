@@ -28,6 +28,8 @@ The following **optional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 ![walkthrough](https://user-images.githubusercontent.com/98725619/194787373-8e606ad9-5f4f-418d-b10e-871ddc9346e6.gif)
+![walkthrough](https://user-images.githubusercontent.com/98725619/195425955-f7b1cdb8-5943-4ebb-bbe9-6ced3daa19e1.gif)
+
 
 
 <!-- Replace this with whatever GIF tool you used! -->
